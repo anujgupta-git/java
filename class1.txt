@@ -1,0 +1,47 @@
+
+public class First{
+public static void main(String args[]){
+//     int a=10;
+//     int b=6;
+//     int res=a+b;
+//     if(res>8){
+//         System.out.println("it is a new version");
+//     }else{
+//         System.out.println("it is a older version of java");
+//     }
+// System.out.print("Hello java"+res);
+
+// int a =5;
+// int b=6;
+// int c=4;
+// if(a>b && a>c){
+//     System.out.println("a is bigger");
+// }
+// else if(b>c){
+//     System.out.println("b is bigger");
+// }
+// else{
+//     System.out.println("cis bigger");
+// }
+
+
+int i=1;
+// for(i=1;i<=10;i++){
+//     System.out.println(i*15);
+// }
+
+// while(i<=10){
+//     System.out.println(i*15);
+//     i++;
+// }
+
+// do{
+//       System.out.println(i*15);
+//       i++;
+// }while(i<=10);
+
+
+}
+}
+
+
