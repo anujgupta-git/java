@@ -1,0 +1,27 @@
+import java.util.*;
+
+class MaxProfit{
+    public static int maxProfit(int[] a){
+        int maxProfit=0;
+        int minSoFar=a[0];
+        int i=0;
+        for (i=i+1;i<a.length;i++){
+            minSoFar=Math.min(minSoFar,a[i]);
+            int profit=a[i]-minSoFar;
+            maxProfit=Math.max(profit,maxProfit);
+        }
+        return maxProfit;
+    }
+}
+
+
+
+public class CheckMaxProfitInStock{
+
+     public static void main(String []args){
+         int a[]={
+             3,1,4,8,7,2,5
+         };
+        System.out.println(MaxProfit.maxProfit(a));
+     }
+}
